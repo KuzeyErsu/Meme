@@ -1,0 +1,22 @@
+meme_dict = {
+            LOL - komik bir şeye verilen cevap
+            CRINGE - garip ya da utandırıcı bir şey
+            ROFL - bir şakaya karşılık cevap
+            SHEESH - onaylamamak
+            CREEPY - korkunç
+            AGGRO - agresifleşmek/sinirlenmek
+            }
+word = input("Anlamadığın bir kelime yaz (Büyük harflerle): ")
+if word == LOL:
+    print("komik bir şeye verilen cevap")
+elif word == CRINGE:
+    print("garip ya da utandırıcı bir şey")
+elif word == ROFL:
+    print("bir şakaya karşılık cevap")
+elif word == SHEESH:
+    print("onaylamamak")
+elif word == CREEPY:
+    print("korkunç")
+elif word == AGGRO:
+    print("AGGRO - agresifleşmek/sinirlenmek")
+
